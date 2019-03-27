@@ -2,7 +2,7 @@
 
 case $1 in
     --unit)
-        PYTHONPATH=$PYTHONPATH:./ pytest
+        PYTHONPATH=$PYTHONPATH:./ pytest --cov=yadummy --disable-warnings ${CI_ARGS}
         ;;
     *)
         ;;

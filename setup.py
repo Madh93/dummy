@@ -5,7 +5,8 @@ REQUIREMENTS = [
 ]
 
 TEST_REQUIREMENTS = [
-    'pytest'
+    'pytest',
+    'pytest-cov'
 ]
 
 setup(
